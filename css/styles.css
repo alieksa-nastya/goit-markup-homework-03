@@ -220,13 +220,13 @@ font-weight: 500;
 }
 
 .section-adv-headers {
-    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .section-adv-text {
