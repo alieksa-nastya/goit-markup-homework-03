@@ -161,7 +161,6 @@ font-weight: 500;
         margin-right: auto;
 }
 
-
 .section-one-button {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -210,6 +209,7 @@ font-weight: 500;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
 .section-adv-list {
