@@ -1,15 +1,55 @@
+* {
+    list-style-type: none;
+}
+
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+}
+
+.header {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
 }
 
 .nav-logo {
@@ -20,6 +60,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        margin-right: 76px;
 }
 
 .nav-logo-accent-black {
@@ -31,6 +72,11 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
 }
 
 .nav-list-link {
@@ -50,7 +96,13 @@ font-weight: 500;
 }
 
 .address {
-    font-style: normal
+    font-style: normal;
+    display: flex;
+    margin-left: auto;
+}
+
+.address-list {
+    display: flex;
 }
 
 .address-link {
@@ -75,6 +127,12 @@ font-weight: 500;
 
 .section-one {
         background-color: #2E2F42;
+        width: 1440px;
+            height: 600px;
+            padding-left: 472px;
+            padding-right: 472px;
+            padding-top: 188px;
+            padding-bottom: 188px;
 }
 
 .section-one-title {
@@ -83,7 +141,10 @@ font-weight: 500;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
+        margin-bottom: 48px;
+        max-width: 496px;
 }
+
 
 .section-one-button {
     font-family: "Roboto", sans-serif;
@@ -94,6 +155,13 @@ font-weight: 500;
         color: #FFFFFF;
         background: #4D5AE5;
         cursor: pointer;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        padding: 16px 32px;
+        display: block;
+        margin: 0 auto;     
 }
 
 .section-one-button:hover {
@@ -111,10 +179,22 @@ font-weight: 500;
 
 .section-adv {
     background-color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.section-adv-title {
-    color: #2e2f42;
+.section-adv-list {
+    display: flex;
+    gap: 24px;
+}
+
+.section-team-list-item {
+    width: calc(100% - 3 * 24px) / 4;
+    height: 380px;
+}
+
+.visually-hidden {
+    display: none;
 }
 
 .section-adv-headers {
@@ -123,6 +203,7 @@ font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .section-adv-text {
@@ -134,9 +215,17 @@ font-weight: 500;
 
 .section-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-team-list {
+padding-bottom: 32px;
+display: flex;
+gap: 24px;
+}
+
+.section-team-list-item {
     background-color: #FFFFFF;
 }
 
@@ -152,6 +241,7 @@ font-weight: 500;
 
 .section-team-img {
         background: url("path_to_image");
+        margin-bottom: 32px;
 }
 
 .section-team-people {
@@ -161,6 +251,7 @@ font-weight: 500;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .section-team-text {
@@ -173,6 +264,14 @@ font-weight: 500;
 
 .section-port {
 background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.section-port-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .section-port-title {
@@ -182,10 +281,19 @@ background-color: #F4F4FD;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
+}
+
+.section-port-item {
+    padding-bottom: 32px;
+    width: calc((100% - 2 * 24) / 3);
+    height: 420px;
+    background-color: #FFFFFF;
 }
 
 .section-port-img {
         background: url("path_to_image");
+        margin-bottom: 32px;
 }
 
 .section-port-points {
@@ -195,6 +303,7 @@ font-weight: 500;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .section-port-text {
@@ -206,6 +315,9 @@ font-weight: 500;
 
 .footer {
         background-color: #2E2F42;
+        padding-top: 101.5px;
+        padding-bottom: 100px;
+
 }
 
 .footer-logo {
@@ -234,4 +346,6 @@ font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+        margin-top: 16px;
+        max-width: 264px;
 }
