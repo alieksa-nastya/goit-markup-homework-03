@@ -36,15 +36,12 @@ body {
 }
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 .nav {
@@ -139,9 +136,6 @@ font-weight: 500;
 
 .section-one {
         background-color: #2E2F42;
-        max-width: 1440px;
-        width: 100%;
-        height: 600px;
         padding: 188px 0;
 }
 
@@ -211,8 +205,6 @@ font-weight: 500;
     display: flex;
     justify-content: space-around;
     gap: 24px;
-    padding: 188px 0;
-    width: calc((100% - 72px) / 4);
 }
 
 .section-adv-list-item {
@@ -225,7 +217,6 @@ font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -234,7 +225,6 @@ font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        text-align: center;
 }
 
 .section-team {
@@ -244,7 +234,6 @@ font-weight: 500;
 }
 
 .section-team-list {
-padding-bottom: 32px;
 display: flex;
 gap: 24px;
 }
@@ -271,7 +260,6 @@ gap: 24px;
 
 .section-team-img {
         background: url("path_to_image");
-        margin-bottom: 32px;
 }
 
 .section-team-people {
@@ -293,7 +281,6 @@ gap: 24px;
 }
 
 .section-port {
-background-color: #F4F4FD;
 padding-top: 120px;
 padding-bottom: 120px;
 }
@@ -316,11 +303,7 @@ padding-bottom: 120px;
 }
 
 .section-port-item {
-    padding-bottom: 32px;
     width: calc((100% - 48px) / 3);
-    height: 420px;
-    background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .section-port-item-port {
@@ -329,7 +312,6 @@ padding-bottom: 120px;
 
 .section-port-img {
         background: url("path_to_image");
-        margin-bottom: 32px;
         width: 100%;
         height: auto;
         display: block;
@@ -339,7 +321,6 @@ padding-bottom: 120px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
 }
 
 .section-port-points {
@@ -350,7 +331,6 @@ padding-bottom: 120px;
     background-color: #FFFFFF;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
 }
 
 .section-port-text {
@@ -358,7 +338,6 @@ padding-bottom: 120px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        text-align: center;
 }
 
 .footer {
@@ -396,6 +375,5 @@ padding-bottom: 120px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
-        margin-top: 16px;
         max-width: 264px;
 }
